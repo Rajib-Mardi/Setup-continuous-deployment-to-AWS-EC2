@@ -79,6 +79,8 @@ on EC2
 
 *  Created docker-compose.yaml file
 
+   * with Postgres  
+
 *  Configured Jenkinsfile to execute docker-compose command
 
    * We will use   ```script shell``` in stage deployment: 
