@@ -93,3 +93,23 @@ on EC2
 
 
 ![ec2-user@ip-172-31-20-224_~ 14-04-2023 20_17_49](https://user-images.githubusercontent.com/96679708/232323478-78535621-0543-435a-bcf9-bb9cc8b413ea.png)
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+## Demo Project:
+*  Complete the CI/CD Pipeline (Docker-Compose, Dynamic versioning) 
+## Technologiesused: 
+* AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
+
+
+### Adjusted Jenkinsfile to include dynamic versioning[Jenkinsfile](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
+* CI step:Increment version 
+* CI step: Build artifact for Java Maven application 
+* CI step: Build and push Docker image to Docker Hub 
+* CD step: Deploy new application version with Docker Compose 
+* CD step: Commit the version update
+
+### Executed Jenkins Pipeline and deploy to AWS EC2 Instance
+
