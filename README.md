@@ -46,4 +46,15 @@ on EC2
 ![EC2 Management Console - Google Chrome 14-04-2023 12_30_05](https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png)
 
 
+### Demo 2 executed - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
+ * Configured Jenkinsfile to build and deploy on EC2 Instance(see in feature/jenkinsfile-sshagent1 for jenkinsfile)
+
+   * Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
+ * Executed Multi-Branch Pipeline on Jenkins
+
+![feature_jenkinsfile-sshagent1  my-multi-branch-pipeline   Jenkins  - Google Chrome 14-04-2023 13_16_48](https://user-images.githubusercontent.com/96679708/232276547-f007266b-677f-4ec5-a665-00375c8abfd4.png)
+
+
+*  Access Application on port 8080 in the browser
+
 -------------------------------------------------------------------------------------
