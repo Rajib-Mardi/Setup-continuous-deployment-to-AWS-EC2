@@ -104,7 +104,7 @@ on EC2
 * AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
 
 
-### Adjusted Jenkinsfile to include dynamic versioning[Jenkinsfile](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
+### Adjusted Jenkinsfile to include dynamic versioning   [Jenkinsfile](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
 * CI step:Increment version 
 * CI step: Build artifact for Java Maven application 
 * CI step: Build and push Docker image to Docker Hub 
