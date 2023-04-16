@@ -35,6 +35,12 @@ on EC2
 ![EC2 Management Console - Google Chrome 14-04-2023 12_27_48](https://user-images.githubusercontent.com/96679708/232274850-a78db942-89b8-486a-a505-4cbb53db6638.png)
 
 
+
+* as we can see the container is running 
+
+![ec2-user@ip-172-31-20-224_~ 14-04-2023 13_18_14](https://user-images.githubusercontent.com/96679708/232275690-4a390cd7-0d85-4888-8711-f3482a415744.png)
+
+
 *  Access Application on port 3080 in the browser
 
 
