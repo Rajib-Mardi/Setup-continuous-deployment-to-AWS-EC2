@@ -21,9 +21,24 @@ Demo 1 executed - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 on EC2
 
   
-  
+  ![my-multi-branch-pipeline » Folder » Global credentials (unrestricted)  Jenkins  - Google Chrome 16-04-2023 10_03_58](https://user-images.githubusercontent.com/96679708/232274719-f7d83a74-da83-4771-8a3b-825a0383b6f2.png)
+
   
 *  Docker Login to DockerHub or your other private Docker Repository (if you haven’t already)
-*  Security Group configured: Added Jenkins IP Address and opened port to access Web App from Browser
+*  Security Group configured: Added Jenkins IP Address and opened port to access Web App from Browser 
+
+![EC2 Management Console - Google Chrome 14-04-2023 12_24_40](https://user-images.githubusercontent.com/96679708/232274808-a3287246-c6b3-4b30-88b6-4513152076bd.png)
+
+ 
 * Deploy Webapp on EC2 Instance by executed Multi-Branch Pipeline
+
+![EC2 Management Console - Google Chrome 14-04-2023 12_27_48](https://user-images.githubusercontent.com/96679708/232274850-a78db942-89b8-486a-a505-4cbb53db6638.png)
+
+
 *  Access Application on port 3080 in the browser
+
+
+![EC2 Management Console - Google Chrome 14-04-2023 12_30_05](https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png)
+
+
+-------------------------------------------------------------------------------------
