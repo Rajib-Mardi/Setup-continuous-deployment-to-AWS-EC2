@@ -6,7 +6,7 @@
 ## Technologiesused:
 *  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
 
-Demo 1 executed - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
+### Demo 1 executed - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
 * Installed SSH agent plugin on Jenkins
 
