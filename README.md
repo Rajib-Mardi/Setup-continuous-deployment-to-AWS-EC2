@@ -4,7 +4,7 @@
 *  CD - Deploy Application from Jenkins Pipeline to EC2 Instance (automatically with docker)
 
 ## Technologiesused:
-*  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
+*  AWS, Jenkins, Docker, Linux, Git, react,nodejs ,Docker Hub
 
 ### Demo 1 executed - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
@@ -45,6 +45,8 @@ on EC2
 
 ![EC2 Management Console - Google Chrome 14-04-2023 12_30_05](https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png)
 
+## Technologiesused:
+*  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
 
 ### Demo 2 executed - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
  * Configured Jenkinsfile to build and deploy on EC2 Instance(see in feature/jenkinsfile-sshagent1 for jenkinsfile)
@@ -54,6 +56,10 @@ on EC2
 
 ![feature_jenkinsfile-sshagent1  my-multi-branch-pipeline   Jenkins  - Google Chrome 14-04-2023 13_16_48](https://user-images.githubusercontent.com/96679708/232276547-f007266b-677f-4ec5-a665-00375c8abfd4.png)
 
+
+* as we can see the container is running 
+
+![ec2-user@ip-172-31-20-224_~ 14-04-2023 13_18_14](https://user-images.githubusercontent.com/96679708/232275690-4a390cd7-0d85-4888-8711-f3482a415744.png)
 
 *  Access Application on port 8080 in the browser
 
