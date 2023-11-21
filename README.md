@@ -8,6 +8,8 @@
 
 ### Demo 1 executed - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
+*  Set up an AWS EC2 instance for deployment.
+* Install the  Docker on the EC2 instance to containerize the  applications.
 * Installed SSH agent plugin on Jenkins
 
 ![Available plugins - Plugin Manager  Jenkins  - Google Chrome 14-04-2023 11_12_28](https://user-images.githubusercontent.com/96679708/232266677-8fef5acc-0b91-4ea7-81d0-d511071934d5.png)
