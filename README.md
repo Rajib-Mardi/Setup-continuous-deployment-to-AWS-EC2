@@ -1,12 +1,14 @@
-# AWS-Services
+### AWS-Services
 
-## Demo Project:
+### Project:
 *  CD - Deploy Application from Jenkins Pipeline to EC2 Instance (automatically with docker)
 
-## Technologiesused:
+### Technologiesused:
 *  AWS, Jenkins, Docker, Linux, Git, react,nodejs ,Docker Hub
 
-### Demo 1 executed - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
+####  Project Description:
+
+####  - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
 *  Set up an AWS EC2 instance for deployment.
 * Install the  Docker on the EC2 instance to containerize the  applications.
@@ -47,10 +49,7 @@ on EC2
 
 ![EC2 Management Console - Google Chrome 14-04-2023 12_30_05](https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png)
 
-## Technologiesused:
-*  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
-
-### Demo 2 executed - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
+#### - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
  * Configured Jenkinsfile to build and deploy on EC2 Instance(see in feature/jenkinsfile-sshagent1 for jenkinsfile)
 
    * Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
@@ -69,11 +68,13 @@ on EC2
 
 
 
-##  Demo Project:
+###  Project:
 *  CD - Deploy Application from Jenkins Pipeline on EC2 Instance (automatically with docker-compose)
 
-## Technologiesused:
+### Technologiesused:
 *  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
+
+#### Project Description:
 
 * Installed Docker-Compose on EC2 Instance
   
@@ -89,7 +90,6 @@ on EC2
    * We will use   ```script shell``` in stage deployment: 
    * Deploy our application using the AWS server by using a script.
 
-     *IMAGE*
 *  Executed Jenkins Pipeline and deploy to AWS EC2 Instance
 
 
@@ -103,20 +103,20 @@ on EC2
 
 
 
-## Demo Project:
+### Project:
 *  Complete the CI/CD Pipeline (Docker-Compose, Dynamic versioning) 
-## Technologiesused: 
+### Technologiesused: 
 * AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
 
-
-### Adjusted Jenkinsfile to include dynamic versioning   [Jenkinsfile link](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
+#### Project Description:
+#### Adjusted Jenkinsfile to include dynamic versioning   [Jenkinsfile link](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
 * CI step:Increment version 
 * CI step: Build artifact for Java Maven application 
 * CI step: Build and push Docker image to Docker Hub 
 * CD step: Deploy new application version with Docker Compose 
 * CD step: Commit the version update
 
-### Executed Jenkins Pipeline and deploy to AWS EC2 Instance
+#### Executed Jenkins Pipeline and deploy to AWS EC2 Instance
 
 ![feature_ec2-instace-docker-compose-yamlfile  my-multi-branch-pipeline   Jenkins  - Google Chrome 15-04-2023 17_11_52](https://user-images.githubusercontent.com/96679708/232329639-211b817e-8641-4aee-bf96-878f11594248.png)
 
