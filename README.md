@@ -76,6 +76,7 @@ on EC2
 *  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
 
 * Installed Docker-Compose on EC2 Instance
+  
 ![ec2-user@ip-172-31-20-224_~ 14-04-2023 18_41_54](https://user-images.githubusercontent.com/96679708/232323227-b63c2db6-db1b-46cc-9b69-9e79a23b3c49.png)
 
 
