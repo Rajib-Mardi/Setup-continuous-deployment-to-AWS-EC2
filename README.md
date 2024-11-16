@@ -110,6 +110,7 @@ on EC2
 
 #### Project Description:
 #### Adjusted Jenkinsfile to include dynamic versioning   [Jenkinsfile link](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
+* Install the  SSH agent plugin on Jenkins to  secure SSH key authentication
 * CI step:Increment version 
 * CI step: Build artifact for Java Maven application 
 * CI step: Build and push Docker image to Docker Hub 
