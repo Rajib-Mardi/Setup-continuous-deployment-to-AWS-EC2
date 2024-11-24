@@ -10,10 +10,13 @@
 
 ####  - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
+
+![8 - Deploy to EC2 server from Jenkins Pipeline - CI_CD Part 1 _ TechW - Brave 25-11-2024 01_15_07](https://github.com/user-attachments/assets/295230e9-ed62-4fd0-a9eb-6074bf71114b)
+
+
 * Create and configure an EC2 Instance on AWS
 * Install Docker on remote EC2 Instance
 
-* 
 * Install the  Docker on the EC2 instance to containerize the  applications.
 * Installed SSH agent plugin on Jenkins
 
@@ -52,9 +55,17 @@
 ![EC2 Management Console - Google Chrome 14-04-2023 12_30_05](https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png)
 
 #### - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
+
+![8 - Deploy to EC2 server from Jenkins Pipeline - CI_CD Part 1 _ TechW - Brave 25-11-2024 01_37_34](https://github.com/user-attachments/assets/2e7bab18-ee0f-4f35-907b-d41b5f6bd3bc)
+
+
  * Configured Jenkinsfile to build and deploy on EC2 Instance(see in feature/jenkinsfile-sshagent1 for jenkinsfile)
 
    * Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
+  
+![8 - Deploy to EC2 server from Jenkins Pipeline - CI_CD Part 1 _ TechW - Brave 25-11-2024 01_43_56](https://github.com/user-attachments/assets/3c214ada-d2c4-4a28-82a3-71568d403100)
+
+   
  * Executed Multi-Branch Pipeline on Jenkins
 
 ![feature_jenkinsfile-sshagent1  my-multi-branch-pipeline   Jenkins  - Google Chrome 14-04-2023 13_16_48](https://user-images.githubusercontent.com/96679708/232276547-f007266b-677f-4ec5-a665-00375c8abfd4.png)
@@ -66,64 +77,5 @@
 
 *  Access Application on port 8080 in the browser
 
--------------------------------------------------------------------------------------
-
-
-
-###  Project:
-*  CD - Deploy Application from Jenkins Pipeline on EC2 Instance (automatically with docker-compose)
-
-### Technologiesused:
-*  AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
-
-#### Project Description:
-
-* Installed Docker-Compose on EC2 Instance
-  
-![ec2-user@ip-172-31-20-224_~ 14-04-2023 18_41_54](https://user-images.githubusercontent.com/96679708/232323227-b63c2db6-db1b-46cc-9b69-9e79a23b3c49.png)
-
-
-*  Created docker-compose.yaml file
-
-   * with Postgres  
-
-*  Configured Jenkinsfile to execute docker-compose command
-
-   * We will use   ```script shell``` in stage deployment: 
-   * Deploy our application using the AWS server by using a script.
-
-*  Executed Jenkins Pipeline and deploy to AWS EC2 Instance
-
-
-
-![feature_ec2-instace-docker-compose-yamlfile  my-multi-branch-pipeline   Jenkins  - Google Chrome 14-04-2023 20_12_56](https://user-images.githubusercontent.com/96679708/232323507-0ed94f6b-60a6-4116-ada1-21663c1a47fe.png)
-
-
-![ec2-user@ip-172-31-20-224_~ 14-04-2023 20_17_49](https://user-images.githubusercontent.com/96679708/232323478-78535621-0543-435a-bcf9-bb9cc8b413ea.png)
-
-------------------------------------------------------------------------------------------------------------------
-
-
-
-### Project:
-*  Complete the CI/CD Pipeline (Docker-Compose, Dynamic versioning) 
-### Technologiesused: 
-* AWS, Jenkins, Docker, Linux, Git, Java, Maven, Docker Hub
-
-#### Project Description:
-#### Adjusted Jenkinsfile to include dynamic versioning   [Jenkinsfile link](https://github.com/Rajib-Mardi/AWS-Services/blob/CD-with-dockerCompose/Jenkinsfile-CD)
-* Install the  SSH agent plugin on Jenkins to  secure SSH key authentication
-* CI step:Increment version 
-* CI step: Build artifact for Java Maven application 
-* CI step: Build and push Docker image to Docker Hub 
-* CD step: Deploy new application version with Docker Compose 
-* CD step: Commit the version update
-
-#### Executed Jenkins Pipeline and deploy to AWS EC2 Instance
-
-![feature_ec2-instace-docker-compose-yamlfile  my-multi-branch-pipeline   Jenkins  - Google Chrome 15-04-2023 17_11_52](https://user-images.githubusercontent.com/96679708/232329639-211b817e-8641-4aee-bf96-878f11594248.png)
-
-
-![MINGW64__c_Users_Rajib 15-04-2023 17_32_51](https://user-images.githubusercontent.com/96679708/232329645-77e4cfeb-ce78-4e2b-a53a-5a77ed9677b2.png)
 
 
