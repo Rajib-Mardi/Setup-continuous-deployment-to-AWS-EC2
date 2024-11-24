@@ -59,7 +59,7 @@
 ![8 - Deploy to EC2 server from Jenkins Pipeline - CI_CD Part 1 _ TechW - Brave 25-11-2024 01_37_34](https://github.com/user-attachments/assets/2e7bab18-ee0f-4f35-907b-d41b5f6bd3bc)
 
 
- * Configured Jenkinsfile to build and deploy on EC2 Instance(see in feature/jenkinsfile-sshagent1 for jenkinsfile)
+ * Configured Jenkinsfile to build and deploy on EC2 Instance [Jenkinsfile](https://github.com/Rajib-Mardi/Setup-continuous-deployment-to-AWS-EC2/blob/feature/jenkinsfile-sshagent1/Jenkinsfile)    (see in feature/jenkinsfile-sshagent1 for jenkinsfile)
 
    * Extend the previous CI pipeline with deploy step to ssh into the remote EC2 instance and deploy newly built image from Jenkins server
   
