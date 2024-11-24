@@ -1,4 +1,3 @@
-### AWS-Services
 
 ### Project:
 *  CD - Deploy Application from Jenkins Pipeline to EC2 Instance (automatically with docker)
@@ -8,7 +7,7 @@
 
 ####  Project Description:
 
-####  - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
+###  - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
 
 ![8 - Deploy to EC2 server from Jenkins Pipeline - CI_CD Part 1 _ TechW - Brave 25-11-2024 01_15_07](https://github.com/user-attachments/assets/295230e9-ed62-4fd0-a9eb-6074bf71114b)
@@ -54,7 +53,9 @@
 
 ![EC2 Management Console - Google Chrome 14-04-2023 12_30_05](https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png)
 
-#### - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
+-------------------------------------------------------------------
+
+### - Deploy Java Maven App via Jenkins Pipeline on EC2 Instance:
 
 ![8 - Deploy to EC2 server from Jenkins Pipeline - CI_CD Part 1 _ TechW - Brave 25-11-2024 01_37_34](https://github.com/user-attachments/assets/2e7bab18-ee0f-4f35-907b-d41b5f6bd3bc)
 
