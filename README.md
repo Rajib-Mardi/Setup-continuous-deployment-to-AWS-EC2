@@ -10,7 +10,10 @@
 
 ####  - Deploy WebApp Container via Jenkins Pipeline on EC2 Instance:
 
-*  Set up an AWS EC2 instance for deployment.
+* Create and configure an EC2 Instance on AWS
+* Install Docker on remote EC2 Instance
+
+* 
 * Install the  Docker on the EC2 instance to containerize the  applications.
 * Installed SSH agent plugin on Jenkins
 
@@ -21,8 +24,7 @@
 ![my-multi-branch-pipeline » Folder » Global credentials (unrestricted)  Jenkins  - Google Chrome 16-04-2023 10_00_22](https://user-images.githubusercontent.com/96679708/232266723-1395008c-5ed7-47f8-9683-1085759f9713.png)
 
 
-*  Configured Jenkinsfile to use the sshAgent and execute docker run command 
-on EC2
+*  Configured Jenkinsfile to use the sshAgent and execute docker run command on EC2 instance
 
   
   ![my-multi-branch-pipeline » Folder » Global credentials (unrestricted)  Jenkins  - Google Chrome 16-04-2023 10_03_58](https://user-images.githubusercontent.com/96679708/232274719-f7d83a74-da83-4771-8a3b-825a0383b6f2.png)
