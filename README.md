@@ -56,7 +56,7 @@
 
 
 
-<img src="https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png" width="800">
+<img src="https://user-images.githubusercontent.com/96679708/232275037-53398831-eca1-409e-862d-4b06376ec119.png" width="700">
 
 -------------------------------------------------------------------
 
